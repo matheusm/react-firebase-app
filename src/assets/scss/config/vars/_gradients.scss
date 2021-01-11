@@ -1,0 +1,27 @@
+//gradients
+$color-gradient-black-dark: rgb(35, 37, 38);
+$color-gradient-black-light: rgba(65, 67, 69, 1);
+
+$color-gradient-green-dark: rgb(168, 255, 120);
+$color-gradient-green-light: rgba(120, 255, 214, 1);
+
+$color-gradient-pink-dark: #f2709c;
+$color-gradient-pink-light: #ff9472;
+
+$gradient-black: linear-gradient(
+  -45deg,
+  $color-gradient-black-dark 0%,
+  $color-gradient-black-light 100%
+);
+
+$gradient-pink: linear-gradient(
+  -45deg,
+  $color-gradient-pink-dark 0%,
+  $color-gradient-pink-light 100%
+);
+
+$gradient-green: linear-gradient(
+  45deg,
+  $color-gradient-green-dark 0%,
+  $color-gradient-green-light 100%
+);
