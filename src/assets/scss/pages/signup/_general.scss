@@ -1,0 +1,27 @@
+.auth-section {
+  width: 100%;
+  max-width: 400px;
+  background: $color-default;
+  border-radius: 4px;
+  padding: 64px 24px;
+  margin: 0 8px;
+
+  .title {
+    margin-bottom: 32px;
+  }
+
+  .label-input {
+    margin-bottom: 8px;
+  }
+
+  .link{
+    padding-bottom: 0;
+  }
+
+  .input {
+    margin-bottom: 16px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
